@@ -1,0 +1,16 @@
+*Relatório de alterações*
+
+-As tabelas com dados nulos foram removidas
+-O Salario foi alterado para monetário
+-Na tabela employee foi separada a coluna complexa Address pelo delimitador "-", criando assim 4 colunas (número, localizacao1, localizacao2 e cidade)
+-As colunas Dno e Dnumber  das tabelas employee e departamento foram mescladas.
+
+*Nomes Gerentes e Colaboradores no Power BI*  
+1. Colunas das tabelas departament (Mgr_ssn) e employee (Ssn) foram mescladas
+2. Mesclado a tabela employee (Super_ssn) com a tabela mesclada (managers)
+3. Deletado as colunas, exceto a coluna com o nome dos colaboradores (mesclado o Fname e Lname: Name_employee) e a coluna com o nome do gerente (Name_Mgr)
+
+
+*Nomes Departamentos e Localização no Power BI* 
+1. Mesclado a tabela dept_location (Dnumber) com a tabela departament (Dnumber)
+2. Foi deixado apenas as colunas Dlocation e Dname e mesclado estas colunas
